@@ -1,0 +1,17 @@
+.about-info__header {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.about-info__text {
+  font-size: 28px;
+  line-height: 45px;
+}
+
+.about-info__subheader {
+  font-weight: bold;
+}
+
+.about-info__tech-list {
+  @include reset-list-style;
+}
