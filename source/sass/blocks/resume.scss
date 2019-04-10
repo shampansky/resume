@@ -1,17 +1,81 @@
+.resume {
+  width: 100%;
+  padding: 0 10px;
+}
+
 .resume__title {
-  font-size: 42px;
-  line-height: 66px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-size: 34px;
+  line-height: 40px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .resume__description {
-  font-size: 42px;
-  line-height: 50px;
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 34px;
+  line-height: 40px;
   font-weight: bold;
 }
 
 .resume__slogan {
-  font-size: 36px;
-  line-height: 44px;
+  margin: 0;
+  margin-bottom: 60px;
+
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.resume__footer {
+  width: 100%;
+  padding: 0 10px;
+}
+
+@media(min-width: $tablet-width) {
+  .resume {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .resume__title {
+    margin-top: 100px;
+    margin-bottom: 6px;
+
+    font-size: 42px;
+    line-height: 66px;
+  }
+
+  .resume__description {
+    margin-bottom: 20px;
+
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .resume__slogan {
+    margin-bottom: 220px;
+
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .resume__footer {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media(min-width: $desktop-width) {
+  .resume {
+    width: 1170px;
+  }
+  .resume__footer {
+    width: 1170px;
+  }
 }

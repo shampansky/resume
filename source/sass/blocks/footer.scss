@@ -1,11 +1,35 @@
+.footer {
+  margin-bottom: 70px;
+}
+
 .footer__header {
-  font-size: 42px;
-  line-height: 66px;
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 40px;
   font-weight: bold;
 }
 
 .footer__contact-link {
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 25px;
+  line-height: 30px;
   color: #161616;
+}
+
+@media(min-width: 1025px) {
+  .footer {
+    margin-bottom: 90px;
+  }
+
+  .footer__header {
+    margin-bottom: 14px;
+
+    font-size: 42px;
+    line-height: 66px;
+  }
+
+  .footer__contact-link {
+    font-size: 36px;
+    line-height: 44px;
+  }
 }
