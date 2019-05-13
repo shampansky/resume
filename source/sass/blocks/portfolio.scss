@@ -31,11 +31,19 @@
 
 .protfolio__project-overview {
   margin: 0;
+  margin-bottom: 10px;
 
   font-size: 16px;
   line-height: 20px;
   font-style: italic;
   color: #969696;
+}
+
+.protfolio__project-link {
+  display: block;
+
+  font-size: 16px;
+  line-height: 20px;
 }
 
 @media(min-width: 1025px) {
@@ -51,8 +59,12 @@
     margin-bottom: 110px;
   }
 
-  .protfolio__project-title {
+  .portfolio__description-wrapper {
     margin-left: 23px;
+  }
+
+  .protfolio__project-title {
+
     margin-bottom: 2px;
 
     font-size: 34px;
@@ -60,14 +72,14 @@
   }
 
   .protfolio__project-description {
-    margin-left: 23px;
+
 
     font-size: 28px;
     line-height: 45px;
   }
 
   .protfolio__project-overview {
-    margin-left: 23px;
+
   }
 }
 
